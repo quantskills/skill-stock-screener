@@ -4,6 +4,8 @@
 
 > "连续3年分红、质押率低于10%、北向加仓、PE低于20" —— 把这类自然语言选股条件翻译成经过验证的 Pandadata 接口组合查询，逐层执行筛选漏斗，返回每个条件都有真实数值佐证的股票清单。
 
+**Creator / Maintainer**: [`abgyjaguo`](https://github.com/abgyjaguo)
+
 <p align="center">
   <img alt="filter intents" src="https://img.shields.io/badge/condition_map-13_intents-blue">
   <img alt="funnel layers" src="https://img.shields.io/badge/execution_order-7_layers-brightgreen">

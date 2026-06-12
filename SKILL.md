@@ -9,15 +9,20 @@ metadata:
   repository_url: https://github.com/quantskills/skill-stock-screener
   project_type: skill
   collection: stock-screener
+  creator: abgyjaguo
+  creator_url: https://github.com/abgyjaguo
+  maintainer: abgyjaguo
+  maintainer_url: https://github.com/abgyjaguo
 ---
 
 # Stock Screener
 
 Use this skill to turn natural-language A-share screening requirements into a reproducible Pandadata query plan, execute the filters layer by layer, and return a sourced stock list with the actual values behind every matched condition.
 
-## Maintainer And Scope
+## Creator, Maintainer, And Scope
 
-- Maintainer: QuantSkills community.
+- Creator: `abgyjaguo` (`https://github.com/abgyjaguo`).
+- Maintainer: `abgyjaguo` for the QuantSkills community.
 - Repository: `https://github.com/quantskills/skill-stock-screener`.
 - License: GNU General Public License v3.0 only (`GPL-3.0-only`).
 - Scope: research-oriented A-share screening from public Pandadata interfaces. The skill is not official investment advice, a certified data product, or a guarantee of screening performance.

@@ -4,6 +4,8 @@
 
 > "3 straight years of dividends, pledge ratio below 10%, northbound buying, PE under 20" — translates natural-language A-share screening conditions into verified Pandadata API query plans, runs the filter funnel layer by layer, and returns a stock list where every condition is backed by actual values.
 
+**Creator / Maintainer**: [`abgyjaguo`](https://github.com/abgyjaguo)
+
 <p align="center">
   <img alt="filter intents" src="https://img.shields.io/badge/condition_map-13_intents-blue">
   <img alt="funnel layers" src="https://img.shields.io/badge/execution_order-7_layers-brightgreen">
