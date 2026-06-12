@@ -13,6 +13,27 @@ metadata:
   creator_url: https://github.com/abgyjaguo
   maintainer: abgyjaguo
   maintainer_url: https://github.com/abgyjaguo
+quantSkills:
+  project_type: skill
+  category: analyst
+  tags:
+    - a-share
+    - stock-screener
+    - fundamentals
+    - screening
+    - pandadata
+  platforms:
+    - claude-code
+    - codex
+    - openclaw
+    - cursor
+  status: stable
+  requires:
+    - skill-pandadata-api
+  validation_level: runnable
+  maintainer_type: community
+  summary_zh: "自然语言 A 股选股：把分红、估值、质押、北向、行业概念、财务增长、股东变化等条件转成可追溯 Pandadata 筛选。"
+  summary_en: "Natural-language A-share stock screener skill that maps fundamentals, dividends, valuation, pledges, northbound flows, sectors, holders, and risk filters to Pandadata calls."
 ---
 
 # Stock Screener
@@ -29,7 +50,7 @@ Use this skill to turn natural-language A-share screening requirements into a re
 
 ## Core Rules
 
-- Use the local `pandadata-api` skill for every real data call. Before calling an API, inspect its `references/method-index.md` or run `scripts/search_api_docs.py --method <method>` to confirm exact parameters, fields, date conventions, and return shape.
+- Use the local `pandadata-api` skill for every real data call. Before calling an API, inspect that skill's method index or search helper to confirm exact parameters, fields, date conventions, and return shape.
 - Never invent Pandadata methods, fields, credentials, factor definitions, or unsupported screening conditions. If a condition cannot be mapped to documented data, say so and offer the nearest auditable proxy.
 - Treat screening date as a first-class input. Default to the latest available trading day, but ask for clarification when the user needs a historical point-in-time screen.
 - Avoid look-ahead bias. For financial statements, dividends, forecasts, pledge data, and shareholder events, use only rows whose disclosure or announcement date is not later than the screening date.

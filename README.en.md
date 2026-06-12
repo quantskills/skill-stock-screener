@@ -26,7 +26,7 @@ Three design pillars:
 2. **No look-ahead bias**: financial statements, dividends, forecasts, pledge data, and shareholder events only use rows whose **disclosure or announcement date is not later than the screening date** — point-in-time historical screens are supported;
 3. **Auditable results**: the final list shows actual hit values for every condition rather than pass/fail flags; the funnel records each layer's input/output counts, method, parameters, and data dates; names that survive due to missing data are marked `数据缺失` and kept out of strict-pass counts.
 
-> All data contracts come from the sibling skill [`pandadata-api`](https://github.com/quantskills/skill-pandadata-api): its `references/method-index.md` or `scripts/search_api_docs.py` is consulted before every call. Conditions that cannot map to documented data are reported honestly, with the nearest auditable proxy offered.
+> All data contracts come from the sibling skill [`pandadata-api`](https://github.com/quantskills/skill-pandadata-api): its method index or search helper is consulted before every call. Conditions that cannot map to documented data are reported honestly, with the nearest auditable proxy offered.
 
 ---
 

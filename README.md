@@ -26,7 +26,7 @@
 2. **杜绝未来函数**：财报、分红、预告、质押、股东事件一律只用**披露/公告日期不晚于筛选日**的行，支持历史时点选股；
 3. **结果可审计**：最终清单展示每个条件的真实命中值而不是 pass/fail 标志，筛选漏斗记录每层的进出数量、接口、参数与数据日期；因数据缺失而留下的股票标记 `数据缺失`，不混入严格通过计数。
 
-> 数据契约一律来自姊妹技能 [`pandadata-api`](https://github.com/quantskills/skill-pandadata-api)：调用前先查 `references/method-index.md` 或跑 `scripts/search_api_docs.py` 确认参数与字段。无法映射到有据可查数据的条件会如实说明，并提供最接近的可审计替代口径。
+> 数据契约一律来自姊妹技能 [`pandadata-api`](https://github.com/quantskills/skill-pandadata-api)：调用前先查该技能内的方法索引或搜索脚本确认参数与字段。无法映射到有据可查数据的条件会如实说明，并提供最接近的可审计替代口径。
 
 ---
 
